@@ -1,5 +1,5 @@
 # WeTriC: Wedge-Parallel Triangle Counting for GPUs
-This repository contains the source code for the WeTriC algorithm from the paper "Wedge-Parallel Triangle Counting for GPUs". For the complete artifact, visit the [Zenodo](https://doi.org/10.5281/zenodo.15611507) repository.
+This repository contains the source code for the WeTriC algorithm from the EuroPar '25 paper ["Wedge-Parallel Triangle Counting for GPUs"](https://link.springer.com/chapter/10.1007/978-3-031-99872-0_1). For the complete artifact, visit the [Zenodo](https://doi.org/10.5281/zenodo.15611507) repository.
 
 ## Requirements
 
@@ -48,7 +48,3 @@ The experiments folder contains all implementations of all additional algorithms
 - implementations for the vertex- and edge-parallel algorithms (with outgoing, arrow, and mixed wedge styles).
 - implementations for WeTriC without optimizations, WeTriC with reordering, and WeTriC with reordering and spreading (note: for WeTriC with reordering, spreading, and cooperation use the main implementation with `-a` set to `0`).
 - implementations for versions of most of the above algorithms able to handle very large graphs (m > 2^32), see the `tc_big_graphs...` files.
-
-## Reference
-
-[...]
