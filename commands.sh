@@ -1,0 +1,1 @@
+./wedge_parallel_ppp -m Amazon0302.mtx -s 7 -a 512 -l 10 >> run_2.txt

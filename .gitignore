@@ -6,3 +6,4 @@ tc
 *.ptx
 *.cubin
 *.fatbin
+*.txt
